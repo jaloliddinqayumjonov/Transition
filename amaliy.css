@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: #67f373;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.container{
+    height: 600px;
+    width: 390px;
+    background-color: #fff;
+    border-radius: 6px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    transition  : 0.9s;
+}
+.for_img{
+    height: 100%;
+    width: 45%;
+    
+}
+.img{
+
+    height: 80%;
+    width: 350px;
+    background-color: chartreuse;
+    position: absolute;
+    top: 10%;
+    left: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #00000077;
+    transition: 0.9s;
+}
+.img>img{
+    width: 300px;
+    position: absolute;
+    left: 0px;
+    transition: 0.5s;
+}
+.img_footer{
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transition: .5s;
+}
+.img_footer_item{
+    width: 60px;
+    height: 60px;
+    border: 1px solid gray;
+}
+.img_footer_item img{
+    width: 60px;
+    transition: .5s;
+}
+.img_footer_item :hover{
+    background-color: greenyellow;
+    cursor: pointer;
+}
+.text{
+    height: 100%;
+    width: 55%;
+    opacity: 0;
+    
+    
+}
+.title{
+    font-weight: 900;
+    margin-top: 11%;
+}
+.code{
+    color: gray;
+    font-size: 15px;
+}
+.price{
+    color: red;
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.price span{
+    font-size: 60px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.color_selection{
+    color: gray;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.collection{
+    display: flex;
+    list-style-type: none;
+    margin-top: 20px;
+
+}
+.collection li:hover{
+    background-color: greenyellow;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.li{
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: rgb(221, 219, 219);
+}
+.collection li img{
+    width: 50px;
+    margin: 0px 8px;
+
+}
+.benefits{
+    color: gray;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-top: 20px;
+}
+.kkk{
+    margin: 20px 20px;
+}
+.kkk li{
+    line-height: 1.5;
+}
+.button{
+    padding: 20px 50px;
+    font-weight: 700 ;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: transparent;
+    box-shadow: 0px 0px 10px rgb(173, 7, 7);
+}
+.button:hover{
+    background-color: rgb(8, 255, 41);
+    box-shadow: 0px 0px 15px green;
+    cursor: pointer;
+}
+.copyright{
+    color: grey;
+    font-size: 14px;
+    position: absolute;
+    left: 32%;
+    bottom: 10px;
+}
+.icons{
+    display: flex;
+    list-style-type: none;
+}
+.icons li{
+    font-size: 30px;
+    color: ivory;
+    margin:10px 10px;
+}
+.share{
+    flex: 1;
+}
+
+
+
+
+
+
+
+
+
+.container:hover{
+    width: 800px;
+    
+}
+.container:hover .img{
+    left: -50px;
+}
+.container:hover .img img{
+    left: -60px;
+}
+.container:hover .text{
+    opacity: 1;
+    transition: .5s .5s;
+}
+.container:hover .img_footer{
+    height: 80px;
+
+}
+.icons>li:hover{
+    cursor: pointer;
+}
